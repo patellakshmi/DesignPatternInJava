@@ -76,9 +76,10 @@ public class User {
         this.state = state;
     }
 
-
+    public static UserBuilder builder(){
+        return new UserBuilder();
+    }
     //Builder class
-
     public static class UserBuilder{
 
         private String name;

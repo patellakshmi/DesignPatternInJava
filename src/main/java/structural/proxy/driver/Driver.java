@@ -1,7 +1,7 @@
-package behavioural.proxy.driver;
+package structural.proxy.driver;
 
-import behavioural.proxy.ProxyInternet;
-import behavioural.proxy.RealInternet;
+import structural.proxy.ProxyInternet;
+import structural.proxy.RealInternet;
 
 public class Driver {
 

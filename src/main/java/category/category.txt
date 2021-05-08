@@ -1,0 +1,28 @@
+Creational Design Pattern:
+    1. Factory
+    2. Abstract Factory
+    3. Builder
+    4. Prototype
+    5. Singleton
+
+Structural Design Pattern:
+    1. Adaptor
+    2. Decorator
+    3. Proxy
+    4. Bridge
+    5. Flyweight
+    6. Composite
+
+
+
+Behavioral Design Pattern:
+    1. Chain of responsibility
+    2. Command
+    3. Momento
+    4. State
+    5. Iterator
+    6. Mediator
+    7. Observer
+    8. Strategy
+    9. Visitor
+    10. Template

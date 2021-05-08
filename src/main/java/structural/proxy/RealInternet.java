@@ -1,4 +1,4 @@
-package behavioural.proxy;
+package structural.proxy;
 
 public class RealInternet implements Internet{
 
