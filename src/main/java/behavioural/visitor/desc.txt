@@ -1,0 +1,21 @@
+Main objective of VISITOR design pattern is to add the functionality to class at run time.
+Could you clear above statement by giving any solid example ?
+--
+Let we do have different product like Shirt, TShirt, Kurta, Pajama etc. every items here has some price.
+Lets someone want to calculate the tax of individual item on fly or lets someone want to calculate benefit or profit
+to individual item on fly.
+For that what do you do ?
+There is two approach -
+1. You can go to every class and add functionality of require type to each class and done.
+2. You can create the dedicated different class for each functionality and you can invoke the functionality of
+functionality class of require object at run time.
+
+Technique 1:
+It not feasible good approach to go in each class and add the functionality whenever you want to add new function.
+
+Technique 2:
+This is good approach because we segregate the functionality in different class and invoke that functionality from
+appropriate class as require. ( This is visitor design pattern ).
+
+
+
