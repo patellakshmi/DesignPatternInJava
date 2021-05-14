@@ -1,0 +1,4 @@
+Simple Factory
+-----------------
+This just class that has a method that take parameter as type and create object of appropriate type
+Please see the code, you will get the idea.

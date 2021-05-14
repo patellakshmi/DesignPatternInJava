@@ -1,0 +1,6 @@
+Prototype
+---------
+Some object complex in nature so it better to clone that object and set appropriate attributes accordingly.
+1. Prototype using clone technique.
+2. Copy constructor.
+3. Serialization

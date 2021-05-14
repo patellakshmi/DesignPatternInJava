@@ -1,0 +1,9 @@
+Abstract factory
+-----------------
+A design pattern that is popularly know as factory of factory.
+Here abstract factory class give the class that give the factory.
+here actual factory which is return by abstract factory class is designed in such
+a way that, it will give the class of particular of category.
+Actual factory factory class implemented the static method that return each category class.
+
+Please see the code, you will get the idea.

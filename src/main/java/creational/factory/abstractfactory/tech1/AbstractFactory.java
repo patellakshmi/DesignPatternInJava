@@ -1,4 +1,4 @@
-package creational.factory.abstractfactory;
+package creational.factory.abstractfactory.tech1;
 
 public class AbstractFactory {
     public static GUIFactory getFactory(Type type){

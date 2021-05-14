@@ -1,0 +1,6 @@
+Factory
+-----------------
+Factory design pattern help to create object by using the factory method.
+Each class has it own factory class that know how to create the particular objet.
+
+Please see the code, you will get the idea.
