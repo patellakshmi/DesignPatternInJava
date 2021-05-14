@@ -1,9 +1,5 @@
-package solid.driver;
+package solid.principle.openclosed.driver;
 
-import behavioural.mediator.ACTMediator;
-import behavioural.mediator.ACTMediatorImpl;
-import behavioural.mediator.Aircraft;
-import behavioural.mediator.AircraftImpl;
 import solid.principle.openclosed.*;
 
 import java.util.ArrayList;
