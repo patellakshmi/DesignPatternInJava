@@ -8,7 +8,7 @@ public class AircraftImpl extends Aircraft{
     }
 
     @Override
-    public void send(String msg, Aircraft aircraft) {
+    public void send(String msg, String aircraft) {
         actMediator.send(msg, aircraft);
     }
 

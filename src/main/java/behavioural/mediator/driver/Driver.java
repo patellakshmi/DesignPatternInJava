@@ -12,11 +12,11 @@ public class Driver {
 
     public static void drive(){
 
-        ACTMediator actMediator = new ACTMediatorImpl();
+       ACTMediator actMediator = new ACTMediatorImpl();
         Aircraft boeing = new AircraftImpl("Boeing-709", actMediator);
-        Aircraft patel = new AircraftImpl("Patel", actMediator);
-        boeing.send("What is your location", patel);
-        patel.send("I am at: lat:908, long: 456", boeing);
+        Aircraft patel = new AircraftImpl("GoAir-500", actMediator);
+        boeing.send("What is your location", "goAir-500");
+        patel.send("I am at: lat:908, long: 456", "Boeing-709");
 
 
 

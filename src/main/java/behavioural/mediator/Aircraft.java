@@ -10,7 +10,23 @@ public abstract class Aircraft {
         this.actMediator = actMediator;
     }
 
-    public abstract void send(String msg, Aircraft aircraft);
+    public ACTMediator getActMediator() {
+        return actMediator;
+    }
+
+    public void setActMediator(ACTMediator actMediator) {
+        this.actMediator = actMediator;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public abstract void send(String msg, String nameOfAircraft);
 
     public abstract void receive(String msg);
 
