@@ -1,4 +1,4 @@
-import behavioural.strategy.driver.Driver;
+import behavioural.observer.driver.Driver;
 
 import java.io.IOException;
 
